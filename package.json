@@ -1,0 +1,22 @@
+{
+	"name": "@pheebcodes/dotenv",
+	"description": "a library for parsing dotenv syntax in js",
+	"type": "module",
+	"version": "0.0.0",
+	"main": "./dotenv.js",
+	"license": "LGPL-3.0-or-later",
+	"homepage": "https://github.com/pheebcodes/dotenv",
+	"repository": "github:pheebcodes/dotenv",
+	"engines": {
+		"node": ">=18.0.0"
+	},
+	"volta": {
+		"node": "18.16.1"
+	},
+	"scripts": {
+		"build": "esbuild dotenv.ts --outfile=dotenv.js"
+	},
+	"devDependencies": {
+		"esbuild": "^0.18.11"
+	}
+}
